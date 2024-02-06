@@ -7,3 +7,4 @@ Task751
 env/
 PW07/.venv/
 Task7.8/
+terraform/.terraform/
