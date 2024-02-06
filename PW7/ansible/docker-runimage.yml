@@ -1,0 +1,15 @@
+---
+- name: Start Docker Container
+  hosts: srv-dev
+  become: yes
+  tasks:
+    - name: Run Docker Container
+      docker_container:
+        name: qweerty12 
+        image: webdb-slim:latest
+        state: started
+        restart_policy: always
+        ports:
+          - "80:80"
+        volumes:
+          - /srv/app:/app
