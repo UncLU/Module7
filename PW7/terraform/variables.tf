@@ -1,7 +1,7 @@
 variable "token" {
   description = "Token in yandex cloud"
   type        = string
-  default     = "y0_AgAAAAACOdS_AATuwQAAAAD3G5kiilNjV3NuTmO4m2yWfwf6Zeskors"
+  default     = "y0_AgAAA3NuTmO4m2yWfwf6Zeskors"
 }
 
 variable "folder_id" {
